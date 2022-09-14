@@ -45,13 +45,13 @@
 
 //The \b metacharacter matches at the beginning or end of a word.
 
-// let sentence=" We are learning 345676#$%^ JavaScript 3456"
-//  let pattern=/\bWe/g;  //begining  //we\b ending of we
-//  let result=sentence.match(pattern);
-//   console.log(result);
-
-
 let sentence=" We are learning 345676#$%^ JavaScript 3456"
- let pattern=/\s/g;  
-let result=sentence.match(pattern);
- console.log(result);
+ let pattern=/\bWe/g;  //begining  //we\b ending of we
+ let result=sentence.match(pattern);
+  console.log(result);
+
+
+// let sentence=" We are learning 345676#$%^ JavaScript 3456"
+//  let pattern=/\s/g;  
+// let result=sentence.match(pattern);
+//  console.log(result);
